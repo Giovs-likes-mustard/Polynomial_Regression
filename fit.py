@@ -1,5 +1,5 @@
 import numpy as np
-from matplotlib import pyplot
+from matplotlib import pyplot as plt
 
 f = open('data.txt','r')
 data = f.read()
@@ -60,7 +60,7 @@ def p_image(x):
         image += (x**e)*xHat[e]
     return image
 
-fig , ax = pyplot.subplots()
+fig , ax = plt.subplots()
 
 #we put the linspace interval 40% larger than the
 #distance between the more left and more right points
@@ -77,9 +77,9 @@ ax.axvline(x=0, color='k',linewidth=0.6)
 ax.plot(x,y,'b-',linewidth=1)
 ax.plot(vX,vY,'r.')
 
-pyplot.gca().set_aspect('equal')
-pyplot.axis('square')
+plt.gca().set_aspect('equal')
+plt.axis('square')
 
 print(xHat)
 
-pyplot.show()
+plt.show()
