@@ -11,4 +11,4 @@ and a graphic will be plotted by MatPlotLib.
 
 data.txt already comes with several data.
 It was the data used to generate the graphic above,
-you can use this as an example of how to put data in data.txt.
+you can use this as an example of how to put your data in data.txt.
