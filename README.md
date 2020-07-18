@@ -1,4 +1,4 @@
-# Polynomial_Regression
+# The program
 Polynomial regression by using the least squares method
 ![Figure_1](https://user-images.githubusercontent.com/68389235/87842681-a3f1ea00-c884-11ea-9517-7f10a0e976f1.jpeg)
 
